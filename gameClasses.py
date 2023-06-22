@@ -39,9 +39,6 @@ class Character(object):
         self.weapon = weapon
         self.max_health = health
 
-    def reName(self, new_name):
-        self.name = new_name
-
     def Attack(self, atk_type, dmg_res):
         dmg = random.randrange(
             self.attack[atk_type][0], self.attack[atk_type][1])

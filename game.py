@@ -68,7 +68,7 @@ def game():
         player.reset_all()
         main()
     else:
-        print('Wow, You won! I am totally impressed! I have given you 10 percent damage resistance if you want to play again.  -Wait 10 sec.\n')
+        print('Wow, You won! I am totally impressed! I have given you 5 percent damage resistance if you want to play again.  -Wait 10 sec.\n')
         player.Lvl_up()
         time.sleep(6)
         menu_game()
