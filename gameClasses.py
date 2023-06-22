@@ -74,8 +74,7 @@ class Character(object):
             return f"You're not going to last much longer."
 
     def reset_all(self):
-        self.__init__(name='', attack={'st': [0, 70], 'sl': [0, 70], 'sp': [
-                      10, 60], }, dmg_res=0, description=None, health=200, lvl=1, inventory=None, armor=None, weapon=None)
+        self.__init__()
 
     def print_stats(self):
         print(f'{self.name = } {self.description = } {self.attack = } {self.dmg_res = } {self.health = } {self.lvl = } {self.inventory = } {self.armor = } {self.weapon = } {self.max_health = }')
